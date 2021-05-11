@@ -23,7 +23,7 @@ async def send(event):
     message_id = event.message.id
     thumb = mafia_logo
     input_str = event.pattern_match.group(1)
-    omk = f"**⍟ Plugin name ≈** `{input_str}`\n**⍟ Uploaded by ≈** {mafia}\n\n⚡ **[LEGENDARY AF MAFIABOT](t.me/MafiaBot_Support)** ⚡"
+    omk = f"**⍟ Plugin name ≈** `{input_str}`\n**⍟ Uploaded by ≈** {mafia}\n\n⚡ **[LEGENDARY AF 𝙴𝙰𝙶𝙻𝙴 𝙼𝙰𝙵𝙸𝙰 𝙱𝙾𝚃](t.me/@EAGLE_MAFIA_USERBOT)** ⚡"
     the_plugin_file = "./userbot/plugins/{}.py".format(input_str)
     if os.path.exists(the_plugin_file):
         lauda = await event.client.send_file(
@@ -71,7 +71,7 @@ async def install(event):
                             a = "__Installing...__"
                             b = 1
                         await event.edit(a)
-                    return await event.edit(f"✅ **Installed module** :- `{shortname}` \n✨ BY :- {mafia}\n\n{string}\n\n        ⚡ **[LEGENDARY AF MAFIABOT](t.me/MafiaBot_Support)** ⚡", link_preview=False)
+                    return await event.edit(f"✅ **Installed module** :- `{shortname}` \n✨ BY :- {mafia}\n\n{string}\n\n        ⚡ **[LEGENDARY AF EAGLE MAFIA BOT](t.me/EAGLE_MAFIA_USERBOT)** ⚡", link_preview=False)
                 return await event.edit(f"Installed module `{os.path.basename(downloaded_file_name)}`")
             else:
                 os.remove(downloaded_file_name)
