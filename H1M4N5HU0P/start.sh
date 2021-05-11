@@ -22,8 +22,8 @@ echo """
              ║║║║║╠╣║╔╝╔║║╣╠╣║║║╠══║╩╣╗╣╔╗║║║║║
              ╚╩═╩╩╝╚╩╝─╚══╩╝╚╝╚═╩══╩═╩╩╩══╩═╝╚╝
 
-                       𝓛𝓔𝓖𝓔𝓝𝓓𝓐𝓡𝓨 𝓐𝓕 𝓜𝓐𝓕𝓘𝓐𝓑𝓞𝓣 !!
-                                          @MAFIA_USERBOT
+                       LEEGNDRY AF EAGLE MAFIA BOT!!
+                                          @EAGLE_MAFIA_USERBOT
 """
 
 python3 -m userbot
