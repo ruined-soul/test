@@ -25,7 +25,7 @@ async def install(event):
     o = stdout.decode()
     _o = o.split("\n")
     o = "\n".join(_o)
-    OUTPUT = f"List of Plugins in MafiaBot :- \n\n{o}\n\n<><><><><><><><><><><><><><><><><><><><><><><><>\nHELP:- If you want to know the commands for a plugin, do :- \n.plinfo <plugin name> without the < > brackets. \nJoin https://t.me/MafiaBot_Chit_Chat for help."
+    OUTPUT = f"List of Plugins in Eagle_MafiaBot :- \n\n{o}\n\n<><><><><><><><><><><><><><><><><><><><><><><><>\nHELP:- If you want to know the commands for a plugin, do :- \n.plinfo <plugin name> without the < > brackets. \nJoin https://t.me/EAGLE_MAFIA_USERBOT for help."
     if len(OUTPUT) > 69:
         with io.BytesIO(str.encode(OUTPUT)) as out_file:
             out_file.name = "cmd_list.text"
@@ -37,5 +37,5 @@ async def install(event):
                 thumb=thumb,
                 reply_to=reply_to_id,
             )
-            await edit_or_reply(mafia_file, f"Output Too Large. This is the file for the list of plugins in mafiabot.\n\n**BY :-** {DEFAULTUSER}")
+            await edit_or_reply(mafia_file, f"Output Too Large. This is the file for the list of plugins in eaglemafiabot.\n\n**BY :-** {DEFAULTUSER}")
             await event.delete()
