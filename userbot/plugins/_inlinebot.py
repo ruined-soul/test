@@ -75,12 +75,12 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         builder = event.builder
         result = None
         query = event.text
-        if event.query.user_id == bot.uid and query == "@MafiaBot_Support":
+        if event.query.user_id == bot.uid and query == "@EAGLE_MAFIA_USERBOT":
             rev_text = query[::-1]
             veriler = button(0, sorted(CMD_HELP))
             result = await builder.article(
                 f"Hey! Only use .help please",
-                text=f"**Running MafiaBot**\n\n__Number of plugins installed__ :`{len(CMD_HELP)}`\n**page:** 1/{veriler[0]}",
+                text=f"**Running EagleMafiaBot**\n\n__Number of plugins installed__ :`{len(CMD_HELP)}`\n**page:** 1/{veriler[0]}",
                 buttons=veriler[1],
                 link_preview=False,
             )
@@ -94,18 +94,18 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             )
         elif event.text=='':
             result = builder.article(
-                "@MafiaBot_Support",
-                text="""**Hey! This is [MafiaBot.](https://t.me/MafiaBot_Support) \nYou can know more about me from the links given below 👇**""",
+                "@EAGLE_MAFIA_USERBOT",
+                text="""**Hey! This is [EAGLE MafiaBot.](https://t.me/EAGLE_MAFIA_USERBOT) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/MafiaBot_Support"),
+                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/EAGLE_MAFIA_USERBOT"),
                         custom.Button.url(
-                            "⚡ GROUP ⚡", "https://t.me/MafiaBot_Chit_Chat"
+                            "⚡ GROUP ⚡", "https://t.me/eagle_with_sucker"
                         ),
                     ],
                     [
                         custom.Button.url(
-                            "✨ REPO ✨", "https://github.com/H1M4N5HU0P/MAFIA-BOT"),
+                            "✨ REPO ✨", "https://github.com/sameerpanthi/EAGLE-MAFIA-BOT"),
                         custom.Button.url
                     (
                             "🔰 TUTORIAL 🔰", "https://youtu.be/aRFWP4_RCaE"
@@ -120,14 +120,14 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def page(event):
         if not event.query.user_id == bot.uid:
             return await event.answer(
-                "HELLO THERE. PLEASE MAKE YOUR OWN MAFIABOT AND USE. © MafiaBot ™",
+                "HELLO THERE. PLEASE MAKE YOUR OWN EAGLE_MAFIA_BOT AND USE. © @EAGLE_MAFIA_USERBOT ™",
                 cache_time=0,
                 alert=True,
             )
         page = int(event.data_match.group(1).decode("UTF-8"))
         veriler = button(page, CMD_HELP)
         await event.edit(
-            f"**Legenday AF** [MafiaBot](https://t.me/MafiaBot_Support) __Working...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
+            f"**Legenday AF** [EAGLE_MafiaBot](https://t.me/EAGLE_MAFIA_USERBOT) __Working...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
             buttons=veriler[1],
             link_preview=False,
         )
@@ -136,10 +136,10 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
             await delete_mafia(event,
-              "⚜️MafiaBot Menu Provider Is now Closed⚜️\n\n         **[© MafiaBot ™](t.me/MafiaBot_Support)**", 5, link_preview=False
+              "⚜️EAGLE_MafiaBot Menu Provider Is now Closed⚜️\n\n         **[© EAGLE_MafiaBot ™](t.me/EAGLE_MAFIA_USERBOT)**", 5, link_preview=False
             )
         else:
-            mafia_alert = "HELLO THERE. PLEASE MAKE YOUR OWN MAFIABOT AND USE. © MafiaBot ™"
+            mafia_alert = "HELLO THERE. PLEASE MAKE YOUR OWN EAGLE_MAFIA_BOT AND USE. © EAGLE_MafiaBot ™"
             await event.answer(mafia_alert, cache_time=0, alert=True)
           
     @tgbot.on(
@@ -148,7 +148,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def Information(event):
         if not event.query.user_id == bot.uid:
             return await event.answer(
-                "HELLO THERE. PLEASE MAKE YOUR OWN MAFIABOT AND USE. © MafiaBot ™",
+                "HELLO THERE. PLEASE MAKE YOUR OWN EAGLE_MAFIA_BOT AND USE. © EAGLE_MafiaBot ™",
                 cache_time=0,
                 alert=True,
             )
@@ -181,7 +181,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def commands(event):
         if not event.query.user_id == bot.uid:
             return await event.answer(
-                "HELLO THERE. PLEASE MAKE YOUR OWN MAFIABOT AND USE. © MafiaBot ™",
+                "HELLO THERE. PLEASE MAKE YOUR OWN EAGLE_MAFIA_BOT AND USE. © EAGLE_MafiaBot ™",
                 cache_time=0,
                 alert=True,
             )
