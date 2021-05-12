@@ -42,7 +42,7 @@ pm_caption += (
 )
 pm_caption += "✘ ΔβØỮŦ Μ¥ Ş¥ŞŦ€Μ ✘\n\n"
 pm_caption += "➾ 𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍   ➣ 𝟏.𝟏𝟕.𝟓\n"
-pm_caption += "➾ 𝐓𝐄𝐀𝐌 𝐆𝐑𝐎𝐔𝐏  ➣ [🦅𝐄𝐀𝐆𝐋𝐄🦅](@eagle_with_suckers)\n"
+pm_caption += "➾ 𝐓𝐄𝐀𝐌 𝐆𝐑𝐎𝐔𝐏  ➣ [🦅𝐄𝐀𝐆𝐋𝐄🦅](https://t.me/eagle_with_sucker)\n"
 pm_caption += "➾ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐇𝐍𝐍𝐋 ➣ [𝐉𝐎𝐈𝐍](https://t.me/joinchat/0KCyT0MHyAhmMmRl)\n"
 pm_caption += "➾ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 ➣ [𝐉𝐎𝐈𝐍](https://t.me/joinchat/dpFlKhAvAi8wNGI9)\n"
 pm_caption += "➾ 𝐂𝐑𝐄𝐀𝐓𝐎𝐑 ➣ [𝐓𝐄𝐀𝐌 𝐈𝐂𝐎𝐍𝐒](https://t.me/joinchat/dpFlKhAvAi8wNGI9)\n" 
