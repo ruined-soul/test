@@ -33,30 +33,23 @@ mafia = bot.uid
 
 edit_time = 10
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/502d3b7372c1c395bba5a.mp4"
-file2 = "https://telegra.ph/file/d938d8f4ecaf2d6e70d31.mp4"
-file3 = "https://telegra.ph/file/52e33f519c5b932082298.mp4"
-file4 = "https://telegra.ph/file/16f20e53ebab4474b7ea3.jpg"
+file1 = "https://telegra.ph/file/385f6edbc9dd183e8da0b.jpg"
 """ =======================CONSTANTS====================== """
-pm_caption = "  __**🔥🔥𝕄𝔸𝔽𝕀𝔸𝔹𝕆𝕋 nnn𝕀𝕊 𝔸𝕃𝕀𝕍𝔼🔥🔥**__\n\n"
+pm_caption = "  __**🔥𝐄𝐀𝐆𝐋𝐄 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥**__\n\n"
 
 pm_caption += (
-    f"                 👑𝕄𝔸𝕊𝕋𝔼ℝ👑\n**  『😈[{DEFAULTUSER}](tg://user?id={mafia})😈』**\n\n"
+    f"                 __↼🄼🄰🅂🅃🄴🅁⇀__\n  『😈[{DEFAULTUSER}](tg://user?id={mafia})😈』**\n\n"
 )
+pm_caption += "✘ ΔβØỮŦ Μ¥ Ş¥ŞŦ€Μ ✘\n\n"
+pm_caption += "➾ 𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍         ➣ 𝟏.𝟏𝟕.𝟓\n"
+pm_caption += "➾ 𝐓𝐄𝐀𝐌 𝐆𝐑𝐎𝐔𝐏      ➣ [𝐄𝐀𝐆𝐋𝐄 𝐌𝐀𝐅𝐈𝐀](@eagle_with_suckers)\n"
+pm_caption += "➾ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐂𝐇𝐍𝐍𝐋 ➣ [𝐉𝐎𝐈𝐍](https://t.me/joinchat/0KCyT0MHyAhmMmRl)\n"
+pm_caption += "➾ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 ➣ [𝐉𝐎𝐈𝐍](https://t.me/joinchat/dpFlKhAvAi8wNGI9)\n"
+pm_caption += "➾ 𝐂𝐑𝐄𝐀𝐓𝐎𝐑     ➣ [⚡𝐓𝐄𝐀𝐌 𝐈𝐂𝐎𝐍𝐒⚡](https://t.me/joinchat/dpFlKhAvAi8wNGI9)\n" 
+                                     
+pm_caption += " \n"
+pm_caption += "[✨𝑫𝑬𝑷𝑳𝑶𝒀 𝒀𝑶𝑼𝑹 𝑬𝑨𝑮𝑳𝑬✨](https://github.com/sameerpanthi/EAGLE-MAFIA-BOT)"
 
-pm_caption += "🛡️TELETHON🛡️ : `1.15.0` \n\n"
-
-pm_caption += f"😈𝕄𝔸𝔽𝕀𝔸𝔹𝕆𝕋😈 : `{mafiaversion}`\n\n"
-
-pm_caption += f"😱SUDO😱            : `{sudou}`\n\n"
-
-pm_caption += "😇CHANNEL😇️   : [ᴊᴏɪɴ](https://t.me/MafiaBot_Support)\n\n"
-
-pm_caption += "😎CREATOR😎    : [Himanshu](https://t.me/H1M4N5HU0P)\n\n"
-
-pm_caption += "🤩SUPPORTER🤩    :[HellBoy](https://t.me/kraken_the_badass)\n\n"
-
-pm_caption += "      [🔥REPO🔥](https://github.com/H1M4N5HU0P/MAFIA-BOT) 🔹 [📜License📜](https://github.com/H1M4N5HU0P/MAFIA-BOT/blob/main/LICENSE)"
 
 # @command(outgoing=True, pattern="^.alive$")
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
