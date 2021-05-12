@@ -15,19 +15,19 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "please check out to an official branch, and re-start the updater."
 )
 OFFICIAL_UPSTREAM_REPO = Config.UPSTREAM_REPO
-BOT_IS_UP_TO_DATE = "**The 𝕄𝔸𝔽𝕀𝔸𝔹𝕆𝕋** is up-to-date sur."
+BOT_IS_UP_TO_DATE = "**Tʜᴇ 𝐄𝐀𝐆𝐋𝐄 𝐌𝐀𝐅𝐈𝐀** Is Uᴘ Tᴏ Dᴀᴛᴇ Sᴜʀ."
 NEW_BOT_UP_DATE_FOUND = (
     "new update found for {branch_name}\n"
     "changelog: \n\n{changelog}\n"
-    "updating your 𝕄𝔸𝔽𝕀𝔸𝔹𝕆𝕋 ..."
+    "Uᴘᴅᴀᴛɪɴɢ ᴜʀ 𝐄𝐀𝐆𝐋𝐄 𝐌𝐀𝐅𝐈𝐀 ..."
 )
-NEW_UP_DATE_FOUND = "New update found for {branch_name}\n" "`updating your 𝕄𝔸𝔽𝕀𝔸𝔹𝕆𝕋...`"
+NEW_UP_DATE_FOUND = "Nᴇᴡ Uᴘᴅᴀᴛᴇ Fᴏᴜɴᴅ Fᴏʀ 𝐄𝐀𝐆𝐋𝐄 𝐌𝐀𝐅𝐈𝐀\n" "`Uᴘᴅᴀᴛɪɴɢ Yᴏᴜʀ 𝐄𝐀𝐆𝐋𝐄 𝐌𝐀𝐅𝐈𝐀...`"
 REPO_REMOTE_NAME = "temponame"
 IFFUCI_ACTIVE_BRANCH_NAME = "master"
 DIFF_MARKER = "HEAD..{remote_name}/{branch_name}"
 NO_HEROKU_APP_CFGD = "no heroku application found, but a key given? 😕 "
 HEROKU_GIT_REF_SPEC = "HEAD:refs/heads/master"
-RESTARTING_APP = "re-starting heroku application"
+RESTARTING_APP = "Rᴇ sTᴀʀᴛɪɴɢ Uʀ Hᴇʀᴏᴋᴜ Aᴘᴘʟɪᴄᴀᴛɪᴏɴ"
 # -- Constants End -- #
 
 
@@ -65,7 +65,7 @@ async def updater(message):
     )
 
     if not changelog:
-        await message.edit("`Updation in Progress......`")
+        await message.edit("`Uᴘᴅᴀᴛɪᴏɴ Iɴ Pʀᴏɢʀᴇss......`")
         await asyncio.sleep(5)
 
     message_one = NEW_BOT_UP_DATE_FOUND.format(
@@ -136,7 +136,7 @@ def generate_change_log(git_repo, diff_marker):
 async def deploy_start(tgbot, message, refspec, remote):
     await message.edit(RESTARTING_APP)
     await message.edit(
-        "Updated your 𝕄𝔸𝔽𝕀𝔸𝔹𝕆𝕋 successfully sur!!!\nNow type `.ping` after 5 mins to check if I'm on🚶😏"
+        "Uᴘᴅᴀᴛɪɴɢ Yᴏᴜʀ 𝐄𝐀𝐆𝐋𝐄 𝐌𝐀𝐅𝐈𝐀 Bᴏᴛ Sᴜᴄᴄᴇssғᴜʟʟʏ!!!\nNᴏᴡ Tʏᴘᴇ `.ping` Aғᴛᴇʀ 5ᴍɪɴᴛ..ᴛᴏ Cʜᴇᴄᴋ I ᴀᴍ Oɴ ᴏʀ Nᴏᴛ🚶😏"
     )
     await remote.push(refspec=refspec)
     await tgbot.disconnect()
