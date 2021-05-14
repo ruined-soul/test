@@ -61,7 +61,7 @@ async def _(event):
 <b>🤖 BOT</b>: {}
 <b>👥 Groups in Common</b>: {}
 
-<b>⚡ <a href='https://t.me/MafiaBot_Support'>From DataBase of MafiaBot</a> ⚡ </b>
+<b>⚡ <a href='https://t.me/EAGLE_MAFIA_USERBOT'>From DataBase of MafiaBot</a> ⚡ </b>
 """.format(
         user_id,
         user_id,
