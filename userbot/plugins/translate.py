@@ -51,7 +51,7 @@ async def _(event):
 async def _(mafia):
     if mafia.fwd_from:
         return
-    await edit_or_reply(mafia, "**All The Language Codes Can Be Found** \n ⚡ [Here](https://telegra.ph/Himanshu-05-07) ⚡🔥")
+    await edit_or_reply(mafia, "**All The Language Codes Can Be Found** \n ⚡ [Here](https://telegra.ph/EAGLE-MAFIA-USERBOT-05-14) ⚡🔥")
 
 
 CmdHelp("translate").add_command(
