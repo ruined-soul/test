@@ -16,7 +16,7 @@
 <a href="https://t.me/eagle_with_sucker"><img src="https://img.shields.io/badge/Join-CHAT%20Group-yellow.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://t.me/EAGLE_MAFIA_USERBOT"><img src="https://img.shields.io/badge/Join-Support%20Channel-yellow.svg?style=for-the-badge&logo=Telegram"></a>
 
-<a href="https://t.me/Owner_of_team_eagle_mafia"><img src="https://img.shields.io/badge/OWNER%20contactMe-yellow.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Owner_of_team_eagle_mafia"><img src="https://img.shields.io/badge/USERBOT%20OWNER-yellow.svg?style=for-the-badge&logo=Telegram"></a>
 
 <details>
 
