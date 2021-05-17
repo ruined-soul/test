@@ -13,6 +13,8 @@
 
 # FORK AT YOUR OWN RISK
 
+<a href="https://t.me/eagle_with_sucker"><img src="https://img.shields.io/badge/Join-Support%20Channel-yellow.svg?style=for-the-badge&logo=Telegram"></a>
+
 <details>
 
   <summary> • INSTALLING • </summary>
@@ -25,6 +27,7 @@
 
 <h2 align="center"> <a href="https://github.com/sameerpanthi/EAGLE-MAFIA-BOT">⚡ 𝚃𝙷𝙴 𝙴𝙰𝙶𝙻𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃 ⚡</a></h2>
 
+## [STRING SESSION](https://replit.com/@D3krish/EAGLEMAFIABOTSTRINGSESSION#main.py)
 </details>
 
 <details>
@@ -34,7 +37,7 @@
 
 • [Uniborg](https://github.com/spechide/uniborg)
 
-• [D3_KRISH](https://github.com/D3KRISH)
+• [D3_KRISH](https://github.com/D3KRISH/D3VIL-BOT)
 
 </details>
 <details>
