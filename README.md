@@ -13,7 +13,10 @@
 
 # FORK AT YOUR OWN RISK
 
-<a href="https://t.me/eagle_with_sucker"><img src="https://img.shields.io/badge/Join-Support%20Channel-yellow.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/eagle_with_sucker"><img src="https://img.shields.io/badge/Join-CHAT%20Group-yellow.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/EAGLE_MAFIA_USERBOT"><img src="https://img.shields.io/badge/Join-Support%20Channel-yellow.svg?style=for-the-badge&logo=Telegram"></a>
+
+<a href="https://t.me/Owner_of_team_eagle_mafia"><img src="https://img.shields.io/badge/Bot-owner%20contact-yellow.svg?style=for-the-badge&logo=Telegram"></a>
 
 <details>
 
@@ -33,9 +36,8 @@
 <details>
   <summary> <h4>Credits 🏅</h4> </summary>
 
-• [JaaduBot](https://github.com/Amberyt/JaaduBot)
 
-• [Uniborg](https://github.com/spechide/uniborg)
+• [MAFIABOT](https://replit.com/@H1M4N5HU0P/MAFIABOT#main.py)
 
 • [D3_KRISH](https://github.com/D3KRISH/D3VIL-BOT)
 
